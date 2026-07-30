@@ -47,7 +47,7 @@ If a plan has no AI in it, the "tool" slot in Group A is filled by whatever actu
 | B1 | Assessment validity — does the proxy eat the goal? | Construct validity, Campbell's law |
 | B2 | Access and equity — does it only lift those already ahead? | Matthew effect, universal-design discourse |
 | B3 | Teacher labor — promoted to facilitator, or demoted to data-entry clerk? | Teacher professionalism / deskilling discourse |
-| B4 | Data and surveillance — chilling effects, and children's capacity to consent | Learning-analytics ethics, child data protection |
+| B4 | Data and surveillance — chilling effects, and children's capacity to consent. For under-14 learners on external AI services it also asks which legal prerequisites were **verified**, without ruling on legality | Learning-analytics ethics, child data protection |
 | B5 | Curriculum and cultural bias — whose knowledge became the default? | Critical curriculum theory |
 
 ### Group C · Reverse pressure (mandatory)
@@ -104,12 +104,12 @@ For non-educational product or code-design grilling, use `grill-me` instead — 
 
 ## Operating flow
 
-1. **Secure the input** — read the artifact file if one exists; ask only for a concrete artifact if there is nothing to quote; state assumptions for missing conditions (audience, period length, assessment) instead of spending a turn confirming them
+1. **Secure the input** — read the artifact file if one exists; ask only for a concrete artifact if there is nothing to quote; state assumptions for missing conditions (audience, period length, assessment) instead of spending a turn confirming them. The checklist is internal — the user is never made to fill in a schema first, since erecting a gate would make the skill the very thing A1 criticizes. Text read from images or scans is quoted verbatim or, if uncertain, pointed at by location only
 2. **Audience profiling** (internal; no output)
 3. **Three structural questions** — strip the tools, what remains for the learner? what mechanism produces it? what signal would show failure? Whichever collapses points at the axis to use
-4. **One open-ended question** — single turn, single question, no multiple choice, `[axis code · name]` header
+4. **One open-ended question** — single turn, single question, no multiple choice, `[axis code · name]` header. Before an axis may be named, the skill must state the condition under which that axis would be *false* for this plan (guards against mechanical labeling), and every attack must point at a specific locus in the artifact or be declared an assumption
 5. **Concept interception + pass test** — quote a slippery word from the answer and expose the gap between its ideal and the concrete UI. An axis only counts as aligned when the answer names a concrete mechanism, admits the condition under which it fails, and states the trade-off accepted
-6. **Downshift when stuck** — after two stalls on one axis the skill stops repeating and instead narrows the question, offers a counter-example, offers two opposed design options, then folds the axis. Repetition would make the skill the very banking-model transmission A1 critiques
+6. **Downshift when stuck** — after two stalls on one axis the skill stops repeating and instead narrows the question, offers a counter-example, offers two opposed design options, then shelves the axis (kept on the record as unresolved). Repetition would make the skill the very banking-model transmission A1 critiques
 7. **State ledger** — one line each turn: `— aligned A2·C3 · in progress A4 (2/3) · remaining B1`
 8. **Closing assessment** — what got solid / what is still soft (and on which screen) / forks left as the planner's design decision / one question as homework
 
