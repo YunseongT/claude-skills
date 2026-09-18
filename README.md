@@ -9,6 +9,7 @@ A personal collection of skills for [Claude Code](https://docs.claude.com/en/doc
 | Skill | Description | Language |
 |---|---|---|
 | [`grill-me-p`](./grill-me-p) | Pedagogical Grill — relentlessly stress-tests edtech / educational web service plans from a critical educational-philosophy persona. | Korean |
+| [`desoemat`](./desoemat) | Removes the machine texture of AI-generated Korean fiction by overwriting signals in a target voice instead of deleting them. | Korean |
 
 > Some skills (like `grill-me-p`) are written in Korean because their persona, terminology interception, and tonal cues depend on Korean-language pedagogy discourse. Translating the `SKILL.md` would degrade behavior. The repository-level docs are in English; per-skill READMEs are bilingual.
 
