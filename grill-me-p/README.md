@@ -12,17 +12,17 @@ It plays a **pacemaker**, not a wrecking ball: the goal is to help the planner's
 
 Both are inferred from the invocation.
 
-| Intensity | Trigger | Scope |
+| Intensity | Trigger | Alignment target · turn cap |
 |---|---|---|
-| Light | "briefly", "quick", "it's just a draft" | 2–3 turns, 1–2 axes |
-| Standard | (default) | 5–7 turns, until 3 axes align |
-| Harsh | "harshly", "review-panel level" | 5+ axes, 2 mandatory reverse-pressure passes |
+| Light | "briefly", "quick", "it's just a draft" | 2 axes (one A, one C) · 4 turns |
+| Standard | (default) | 3 axes · 9 turns |
+| Harsh | "harshly", "review-panel level" | 5 axes · 14 turns, 2 mandatory reverse-pressure passes |
 
-| Mode | Use |
-|---|---|
-| Examination (default) | Press the plan's blind spots axis by axis |
-| Pre-mortem | "It failed pedagogically six months in — perform the autopsy." Efficient for early ideas |
-| Defense rehearsal | Before a review panel. Each answer is followed by the counter-question a real panelist would ask next |
+| Mode | Trigger | Use |
+|---|---|---|
+| Examination (default) | (default) | Press the plan's blind spots axis by axis |
+| Pre-mortem | "pre-mortem", "autopsy this" | "It failed pedagogically six months in — perform the autopsy." Efficient for early ideas |
+| Defense rehearsal | "panel questions", "prep for my review" | Before a review panel. After each answer is processed, one `expected follow-up:` line forecasts what a real panelist would ask next (still one answerable question per turn) |
 
 ## The axis bank
 
